@@ -10,6 +10,12 @@ nav:li {
   position:fixed;
 }
 
+#Data-Science {
+  display: flex;
+  border: 250px;
+  justify-content: space-evenly;
+}
+
 body {
 background-color: #FFE53B;
 background-image: linear-gradient( #37D5D6, #36096D);
@@ -42,8 +48,6 @@ i {
 
 
 /* make div clickable, DO NOT DELETE*/
-
-
 .link {
   position: absolute;
   width: 100%;
@@ -53,14 +57,14 @@ i {
   z-index: 1;
 }
 
+
 .box-container {
   width: 300px;
   padding: 20px;
   background-color: white;
   border: 5px solid gray;
   position: relative;
-  cursor: pointer;
-
+  cursor: pointer; 
 }
 
 .box-container:hover {
